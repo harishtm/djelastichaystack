@@ -17,7 +17,6 @@ class ProductView(DetailView):
 
 
 def autocomplete(request):
-    import ipdb;ipdb.set_trace()
     sugg = []
     search_query = request.GET.get('query', '')
     if search_query:
