@@ -3,7 +3,7 @@ Simple demonstration of elastic search - haystack
 
 Curl command to create index
 
-curl -X PUT "localhost:9200/haystackdemo"
+curl -X PUT "http://localhost:9200/haystackdemo"
 
 python manage.py update_index
 
