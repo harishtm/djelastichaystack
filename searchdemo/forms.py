@@ -29,4 +29,5 @@ class FacetedProductSearchForm(FacetedSearchForm):
 					query += u''
 				query += u'"%s"' % sqs.query.clean(brand)
 			sqs = sqs.narrow(u'brand_extract:%s' % query)
+		print("============>>>",query)
 		return sqs
